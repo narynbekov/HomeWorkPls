@@ -1,0 +1,26 @@
+body {
+    color: white;
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: 'Gilroy';
+}
+
+.header {
+    max-width: 1170px;
+    margin-top: 60px;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.logo {
+    
+}
+
+.header-p   {
+    padding-left: 35px;
+    font-style: 16px;
+    font-weight: 700;
+    margin: 0;
+}
