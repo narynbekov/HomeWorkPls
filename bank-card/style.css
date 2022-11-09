@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#73c1ff,#fff);
+}
+
+.payment {
+    position: relative;    
+}
+
+.payment .bg {
+    position: absolute;
+}
+
+.payment .card {
+    position: relative;
+    width: 580px;
+    height: 350px;
+    background: #fcfcfc;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+}
