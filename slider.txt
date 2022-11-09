@@ -1,0 +1,40 @@
+http://sachinchoolur.github.io/lightslider/examples.html
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script>
+      $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+  </script>
+
+
+{
+  "name": "my-gulp-config",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Tariel <frommellywithlove@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "⌃7.14.0",
+    "@babel/preset-nev": "⌃7.14.0",
+    "browser-sync": "⌃2.26.14",
+    "del": "⌃6.0.0",
+    "gulp": "⌃4.0.2",
+    "gulp-autoprefixer": "⌃7.0.1",
+    "gulp-babel": "⌃8.0.0",
+    "gulp-concat ": "⌃2.6.1",
+    "gulp-csso": "⌃4.0.1",
+    "gulp-imagemin": "⌃7.1.0",
+    "gulp-newer": "⌃1.4.0",
+    "gulp-sass": "⌃4.1.0",
+    "gulp-uglify-es": "⌃2.0.0"
+  } 
+}
